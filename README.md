@@ -634,9 +634,9 @@ you have trained your new model on the new data.
 
 Replace these fields in your copy of this README with your own links and platform choice:
 
-- **W&B project:** `https://wandb.ai/<username-or-team>/nyc_airbnb`
-- **Source repository platform:** `GitHub` or `Azure Repos`
-- **Source repository:** your actual GitHub repository URL or Azure Repos URL
+- **W&B project:** `https://wandb.ai/mistral1992-udacity/nyc_airbnb`
+- **Source repository platform:** `GitHub` 
+- **Source repository:** `https://github.com/adrianamich/build-ml-pipeline-for-short-term-rental-prices`
 
 Submit the same information in **Submission Details**:
 
