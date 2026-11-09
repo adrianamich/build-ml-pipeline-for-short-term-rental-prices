@@ -5,22 +5,22 @@ entry_points:
   main:
     parameters:
       input_artifact:
-        description: ## ADD DESCRIPTION
+        description: "Name of the input W&B artifact with the raw data (e.g. sample.csv:latest)"
         type: string
       output_artifact:
-        description: ## ADD DESCRIPTION
+        description: "Name of the output W&B artifact with the cleaned data (e.g. clean_sample.csv)"
         type: string
       output_type:
-        description: ## ADD DESCRIPTION
+        description: "Type of the output artifact (e.g. clean_sample)"
         type: string
       output_description:
-        description: ## ADD DESCRIPTION
+        description: "Description of the output artifact"
         type: string
       min_price:
-        description: ## ADD DESCRIPTION
+        description: "Minimum nightly price to keep (inclusive)"
         type: float
       max_price:
-        description: ## ADD DESCRIPTION
+        description: "Maximum nightly price to keep (inclusive)"
         type: float
 
     command: >-
